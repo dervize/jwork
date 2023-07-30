@@ -124,16 +124,18 @@ body{
 
 
 
+.container1-wrap{
+    display: flex;
+    justify-content: center;
+}
+
 .container1{
     display: inline-flex;
     gap: 8%;
     align-items: center;
+    justify-content: center;
 
-    width: 100%;
     height: 515px;
-
-    padding-left: 8%;
-
 }
 
 .about-text-container{
@@ -143,7 +145,7 @@ body{
 
     gap: 24px;
 
-    width: 450px;
+    width: 560px;
     height: 380px;
 }
 
@@ -161,6 +163,7 @@ body{
 .about-gallery{
     display: flex;
     flex-direction: column;
+    width: 50%;
 
     gap: 20px;
 
@@ -248,6 +251,10 @@ body{
 
 
 .container3{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+
     height: 740px;
     width: 100%;
 
@@ -255,6 +262,64 @@ body{
 }
 
 .advantages{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.advantage-list{
+    display: flex;
+    justify-content: center;
+}
+
+.advantages-container{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    
+
+    width: 464px;
+    height: 448px;
+}
+
+.advantage::before{
+    position: relative;
+
+    content: url(img/check.png);
+    width: 64px;
+    height: 64px;
+
+    top: 76px;
+    right: 76px;
+
+}
+
+.advantage-head{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.advantage-text{
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+.container4{
+    width: 100%;
+    height: 656px;
+    padding-top: 165px;
+
+    background: #f5f5f5
+}
+
+.container4-head{
     font-size: 36px;
     font-weight: 700;
     text-align: center;
