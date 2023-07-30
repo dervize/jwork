@@ -5,11 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Перша сторінка</title>
     <link rel ="stylesheet" type = "text/css" href = "style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
 </head>
+
 <body>
+
+    <script>
+        AOS.init();
+    </script>
 
     <div class="header">
         <div class="head-bg"></div>
@@ -41,15 +56,18 @@
 
 
             <div class="head-info">
-                <div class="head-info-head">
+                <div data-aos = "fade-up" data-aos-delay = "300"
+                data-aos-duration = "600" class="head-info-head">
                     Find Freelance Works
                 </div>
 
-                <div class="head-info-text">
+                <div data-aos = "fade-up" data-aos-duration = "600"
+                data-aos-delay = "600" class="head-info-text">
                     Jwork - is an exclusive network for finding work for software developers, designers, financial experts, product managers and project managers
                 </div>
                 
-                <button class = "head-button">FIND WORK</button>
+                <button data-aos = "fade-up" data-aos-duration = "600"
+                data-aos-delay = "1100" class = "head-button">FIND WORK</button>
 
                 <img class = "arrow" src = "img/arrow.png">
 
@@ -69,7 +87,9 @@
     <div class="main">
 
 
-        <div class="container1">
+        <div class="container1-wrap">
+
+            <div class="container1">
 
 
             <div class="about-text-container">
@@ -107,6 +127,9 @@
             
         </div>
 
+        </div>
+        
+
 
 
         <div class="container2">
@@ -140,15 +163,50 @@
                 advantages
             </div>
 
-            <div class="advantage"></div>
-            <div class="advantage"></div>
-            <div class="advantage"></div>
-            <div class="advantage"></div>
+            <div class="advantage-list">
+
+                <div class="advantages-container">
+
+                    <div class="advantage">
+                        <div class="advantage-head">Advantage 1</div>
+                        <div class="advantage-text">Our team has years of experience in the IT industry.</div>
+                    </div>
+                    <div class="advantage">
+
+                        <div class="advantage-head">Advantage 2</div>
+                        <div class="advantage-text">We have a proven track record of success in job placement and<br> training programs.</div>
+
+                    </div>
+                    <div class="advantage">
+
+                        <div class="advantage-head">Advantage 3</div>
+                        <div class="advantage-text">We are committed to providing personalized support and<br> guidance to each of our clients.</div>
+
+                    </div>
+
+                </div>
+                
+
+            </div>
+
         </div>
 
 
 
 
+        <div class="container4">
+
+            <div class="container4-wrap">
+
+                <div class="container4-head">
+
+                    Feedback from our clients
+
+                </div>
+
+            </div>
+
+        </div>
 
 
 
